@@ -1,0 +1,54 @@
+.a {
+    display: grid;
+    grid-template-rows: repeat(4, 300px);
+    grid-template-columns: 1920px ;
+    gap: 10px;
+}
+ 
+.b {
+    display: grid;
+    grid-template-rows: repeat(3, 90px);
+    grid-template-columns: 350px;
+    gap: 10px;
+
+
+}
+
+#a {
+  
+    height: 90px;
+    width: 300px;
+
+}
+
+#ab {
+    
+    
+    height: 90px;
+    width: 300px;
+    
+}
+#abc{  width: 1920px;
+     display: grid;
+     grid-template-columns:repeat(3,400px);
+grid-template-rows: 100px;
+    
+    gap: 10px;  grid-row-start: 3;
+margin-top: 10px;}
+#b {
+    display: grid;
+    grid-template-rows: repeat(3, 90px);
+    grid-template-columns: 300px;
+    gap: 10px;
+    
+    
+}
+
+
+.ri{display: grid;
+grid-template-columns: 1500px 300px;
+gap: 10px;
+margin-bottom: 10px;}
+   
+    
+#e{width: 1600px; height: 300px;}
